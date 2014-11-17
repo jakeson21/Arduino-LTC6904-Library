@@ -2,6 +2,7 @@
 #include "LTC6904.h"
 #include <Wire.h>
 
+// NECESSARY TO USE
 //#define pwrpin PORTC2
 //#define gndpin PORTC3
 //DDRC |= _BV(pwrpin) | _BV(gndpin);
