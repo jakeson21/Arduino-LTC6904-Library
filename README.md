@@ -1,7 +1,5 @@
-Arduino-LTC6904-Library
-=======================
-
-# Arduino library for Linear Technologies LTC6904 I2C programmable oscillator
+# Arduino-LTC6904-Library
+Arduino library for Linear Technologies LTC6904 I2C programmable oscillator
 
 ## Member Functions
 
