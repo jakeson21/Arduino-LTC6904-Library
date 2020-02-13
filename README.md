@@ -18,6 +18,9 @@ uint8_t getOutputCfg()
 ## Basic Usage
 ### Example 1
 ```
+#include "LTC6904.h"
+#include <Wire.h>
+...
 // This assumes you've configured Wire
 // creates an instance of LTC6904
 myosc = LTC6904(0);
@@ -27,11 +30,14 @@ myosc.setFrequency(4.25);
 
 ### Example 2
 ```
+#include "LTC6904.h"
+#include <Wire.h>
+...
 // This assumes you've configured Wire
 // creates an instance of LTC6904
 myosc = LTC6904(0);
 // sets the output mode to LTC6904_CLK_ON_CLK_INV_OFF
-myosc.settings(2);
+myosc.settings(LTC6904_CLK_ON_CLK_INV_OFF);
 // set the ocs frequency to 100.5 kHz
 myosc.setFrequency(100.5); 
 ```
